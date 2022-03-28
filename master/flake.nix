@@ -11,7 +11,6 @@
   inputs.src-nimgraphviz-master.ref   = "refs/heads/master";
   inputs.src-nimgraphviz-master.owner = "Aveheuzed";
   inputs.src-nimgraphviz-master.repo  = "nimgraphviz";
-  inputs.src-nimgraphviz-master.dir   = "";
   inputs.src-nimgraphviz-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
